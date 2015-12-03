@@ -1,5 +1,8 @@
-﻿namespace AutoReservation.Common.Interfaces
+﻿using System.ServiceModel;
+
+namespace AutoReservation.Common.Interfaces
 {
+    [ServiceContract]
     public interface IAutoReservationService
     {
         

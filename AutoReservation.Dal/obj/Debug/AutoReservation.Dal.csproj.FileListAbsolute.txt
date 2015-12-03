@@ -1,0 +1,10 @@
+C:\Users\Phil\Documents\Visual Studio 2015\Projects\msteTestat\AutoReservation.Dal\bin\Debug\AutoReservation.Dal.dll.config
+C:\Users\Phil\Documents\Visual Studio 2015\Projects\msteTestat\AutoReservation.Dal\bin\Debug\AutoReservation.Dal.dll
+C:\Users\Phil\Documents\Visual Studio 2015\Projects\msteTestat\AutoReservation.Dal\bin\Debug\AutoReservation.Dal.pdb
+C:\Users\Phil\Documents\Visual Studio 2015\Projects\msteTestat\AutoReservation.Dal\bin\Debug\EntityFramework.dll
+C:\Users\Phil\Documents\Visual Studio 2015\Projects\msteTestat\AutoReservation.Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Phil\Documents\Visual Studio 2015\Projects\msteTestat\AutoReservation.Dal\bin\Debug\EntityFramework.xml
+C:\Users\Phil\Documents\Visual Studio 2015\Projects\msteTestat\AutoReservation.Dal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Phil\Documents\Visual Studio 2015\Projects\msteTestat\AutoReservation.Dal\obj\Debug\AutoReservation.Dal.csprojResolveAssemblyReference.cache
+C:\Users\Phil\Documents\Visual Studio 2015\Projects\msteTestat\AutoReservation.Dal\obj\Debug\AutoReservation.Dal.dll
+C:\Users\Phil\Documents\Visual Studio 2015\Projects\msteTestat\AutoReservation.Dal\obj\Debug\AutoReservation.Dal.pdb

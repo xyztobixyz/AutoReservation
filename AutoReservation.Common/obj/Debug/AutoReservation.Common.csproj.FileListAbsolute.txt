@@ -1,0 +1,10 @@
+C:\Users\Phil\Documents\Visual Studio 2015\Projects\msteTestat\AutoReservation.Common\bin\Debug\AutoReservation.Common.dll.config
+C:\Users\Phil\Documents\Visual Studio 2015\Projects\msteTestat\AutoReservation.Common\bin\Debug\AutoReservation.Common.dll
+C:\Users\Phil\Documents\Visual Studio 2015\Projects\msteTestat\AutoReservation.Common\bin\Debug\AutoReservation.Common.pdb
+C:\Users\Phil\Documents\Visual Studio 2015\Projects\msteTestat\AutoReservation.Common\bin\Debug\EntityFramework.dll
+C:\Users\Phil\Documents\Visual Studio 2015\Projects\msteTestat\AutoReservation.Common\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Phil\Documents\Visual Studio 2015\Projects\msteTestat\AutoReservation.Common\bin\Debug\EntityFramework.xml
+C:\Users\Phil\Documents\Visual Studio 2015\Projects\msteTestat\AutoReservation.Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Phil\Documents\Visual Studio 2015\Projects\msteTestat\AutoReservation.Common\obj\Debug\AutoReservation.Common.csprojResolveAssemblyReference.cache
+C:\Users\Phil\Documents\Visual Studio 2015\Projects\msteTestat\AutoReservation.Common\obj\Debug\AutoReservation.Common.dll
+C:\Users\Phil\Documents\Visual Studio 2015\Projects\msteTestat\AutoReservation.Common\obj\Debug\AutoReservation.Common.pdb
