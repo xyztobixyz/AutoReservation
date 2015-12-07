@@ -14,6 +14,12 @@ namespace AutoReservation.Dal
     
     public partial class LuxusklasseAuto : Auto
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public LuxusklasseAuto()
+        {
+            this.Basistarif = 0;
+        }
+    
         public int Basistarif { get; set; }
     }
 }
