@@ -66,6 +66,7 @@ namespace AutoReservation.Ui.ViewModels
             foreach (KundeDto kunde in Service.Kunden)
             {
                 Kunden.Add(kunde);
+                kundenOriginal.Add(kunde.Clone());
             }
                 
 
