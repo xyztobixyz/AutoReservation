@@ -1,4 +1,6 @@
-﻿using AutoReservation.TestEnvironment;
+﻿using AutoReservation.Common.DataTransferObjects;
+using AutoReservation.Dal;
+using AutoReservation.TestEnvironment;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace AutoReservation.BusinessLayer.Testing
@@ -29,19 +31,32 @@ namespace AutoReservation.BusinessLayer.Testing
         [TestMethod]
         public void Test_UpdateAuto()
         {
-            Assert.Inconclusive("Test not implemented.");
+            
+            Auto auto=Target.FindAuto(1);
+            Auto auto2 = Target.FindAuto(1);
+            auto2.Marke = "Fiat Panda";
+            Target.UpdateAuto(auto2, auto);
+            Assert.Inconclusive("Fiat Panda", Target.FindAuto(1).Marke);
         }
 
         [TestMethod]
         public void Test_UpdateKunde()
         {
-            Assert.Inconclusive("Test not implemented.");
+            Kunde kunde = Target.FindKunde(1);
+            Kunde kunde2 = Target.FindKunde(1);
+            kunde2.Nachname = "Meier";
+            Target.UpdateKunde(kunde2, kunde);
+            Assert.Inconclusive("Meier", Target.FindKunde(1).Nachname);
         }
 
         [TestMethod]
         public void Test_UpdateReservation()
         {
-            Assert.Inconclusive("Test not implemented.");
+            Reservation reservation = Target.FindReservation(2);
+            Reservation reservation2 = Target.FindReservation(2);
+            reservation2.KundeId = 1;
+            Target.UpdateReservation(reservation2, reservation);
+            Assert.Inconclusive("1", Target.FindReservation(2).KundeId);
         }
     }
 }

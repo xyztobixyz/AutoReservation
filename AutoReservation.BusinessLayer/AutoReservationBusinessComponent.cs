@@ -2,8 +2,9 @@
 
 namespace AutoReservation.BusinessLayer
 {
-    public partial class AutoReservationBusinessComponent
+    public class AutoReservationBusinessComponent
     {
+
         private static void HandleDbConcurrencyException<T>(AutoReservationEntities context, T original) where T : class
         {
             var databaseValue = context.Entry(original).GetDatabaseValues();
