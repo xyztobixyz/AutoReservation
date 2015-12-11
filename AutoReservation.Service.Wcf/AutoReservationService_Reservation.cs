@@ -10,13 +10,10 @@ namespace AutoReservation.Service.Wcf
 {
     public partial class AutoReservationService : IAutoReservationService
     {
-        public List<ReservationDto> Reservationen
+        public List<ReservationDto> Reservationen()
         {
-            get
-            {
-                WriteActualMethod();
-                return BusinessComponent.Reservations().ConvertToDtos();
-            }
+            WriteActualMethod();
+            return BusinessComponent.Reservations().ConvertToDtos();
         }
 
         public ReservationDto FindReservation(int id)

@@ -10,13 +10,10 @@ namespace AutoReservation.Service.Wcf
 {
     public partial class AutoReservationService : IAutoReservationService
     {
-        public List<AutoDto> Autos
+        public List<AutoDto> Autos()
         {
-            get
-            {
-                WriteActualMethod();
-                return BusinessComponent.Autos().ConvertToDtos();
-            }
+            WriteActualMethod();
+            return BusinessComponent.Autos().ConvertToDtos();
         }
 
         public AutoDto FindAuto(int id)

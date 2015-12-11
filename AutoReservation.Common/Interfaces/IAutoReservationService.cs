@@ -17,11 +17,9 @@ namespace AutoReservation.Common.Interfaces
         AutoDto UpdateAuto(AutoDto modified, AutoDto original);
         [OperationContract]
         AutoDto DeleteAuto(AutoDto auto);
-        List<AutoDto> Autos
-        {
-            [OperationContract]
-            get;
-        }
+
+        [OperationContract]
+        List<AutoDto> Autos();
 
         
         [OperationContract]
@@ -33,11 +31,9 @@ namespace AutoReservation.Common.Interfaces
         KundeDto UpdateKunde(KundeDto modified, KundeDto original);
         [OperationContract]
         KundeDto DeleteKunde(KundeDto kunde);
-        List<KundeDto> Kunden
-        {
-            [OperationContract]
-            get;
-        }
+
+        [OperationContract]
+        List<KundeDto> Kunden();
 
         [OperationContract]
         ReservationDto FindReservation(int id);
@@ -48,10 +44,8 @@ namespace AutoReservation.Common.Interfaces
         ReservationDto UpdateReservation(ReservationDto modified, ReservationDto original);
         [OperationContract]
         ReservationDto DeleteReservation(ReservationDto reservation);
-        List<ReservationDto> Reservationen
-        {
-            [OperationContract]
-            get;
-        }
+
+        [OperationContract]
+        List<ReservationDto> Reservationen();
     }
 }
