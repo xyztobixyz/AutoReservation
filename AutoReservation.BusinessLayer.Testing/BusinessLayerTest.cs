@@ -36,7 +36,7 @@ namespace AutoReservation.BusinessLayer.Testing
             Auto auto2 = Target.FindAuto(1);
             auto2.Marke = "Fiat Panda";
             Target.UpdateAuto(auto2, auto);
-            Assert.Inconclusive("Fiat Panda", Target.FindAuto(1).Marke);
+            Assert.AreEqual("Fiat Panda", Target.FindAuto(1).Marke);
         }
 
         [TestMethod]
@@ -46,7 +46,7 @@ namespace AutoReservation.BusinessLayer.Testing
             Kunde kunde2 = Target.FindKunde(1);
             kunde2.Nachname = "Meier";
             Target.UpdateKunde(kunde2, kunde);
-            Assert.Inconclusive("Meier", Target.FindKunde(1).Nachname);
+            Assert.AreEqual("Meier", Target.FindKunde(1).Nachname);
         }
 
         [TestMethod]
@@ -56,7 +56,7 @@ namespace AutoReservation.BusinessLayer.Testing
             Reservation reservation2 = Target.FindReservation(2);
             reservation2.KundeId = 1;
             Target.UpdateReservation(reservation2, reservation);
-            Assert.Inconclusive("1", Target.FindReservation(2).KundeId);
+            Assert.AreEqual(1, Target.FindReservation(2).KundeId);
         }
     }
 }
