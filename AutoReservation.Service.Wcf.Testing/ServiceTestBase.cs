@@ -1,6 +1,5 @@
 ﻿using AutoReservation.Common.DataTransferObjects;
 using AutoReservation.Common.Interfaces;
-using AutoReservation.Dal;
 using AutoReservation.TestEnvironment;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
@@ -23,46 +22,37 @@ namespace AutoReservation.Service.Wcf.Testing
         [TestMethod]
         public void Test_GetAutos()
         {
-            //ListDto von autos erstellen
-            Assert.Inconclusive( , Target.Autos);
+            Assert.Inconclusive("Test not implemented.");
         }
 
         [TestMethod]
         public void Test_GetKunden()
         {
-            Assert.Inconclusive( , Target.Kunden);
+            Assert.Inconclusive("Test not implemented.");
         }
 
         [TestMethod]
         public void Test_GetReservationen()
         {
-            Assert.Inconclusive( , Target.Reservationen);
+            Assert.Inconclusive("Test not implemented.");
         }
 
         [TestMethod]
         public void Test_GetAutoById()
         {
-            Auto auto = new StandardAuto();
-            auto.Id = 5;
-            auto.Marke = "Auti S6";
-            Assert.Inconclusive(auto.Marke, Target.FindAuto(3).Marke);
+            Assert.Inconclusive("Test not implemented.");
         }
 
         [TestMethod]
         public void Test_GetKundeById()
         {
-            Kunde kunde = new Kunde();
-            kunde.Nachname = "Zufall";
-            Assert.Inconclusive(kunde.Nachname, Target.FindKunde(4).Nachname);
+            Assert.Inconclusive("Test not implemented.");
         }
 
         [TestMethod]
         public void Test_GetReservationByNr()
         {
-            Reservation reservation = new Reservation();
-            reservation.KundeId = 1;
-            reservation.AutoId = 1;
-            Assert.Inconclusive(reservation.AutoId, Target.FindReservation(1).Auto);
+            Assert.Inconclusive("Test not implemented.");
         }
 
         [TestMethod]
@@ -74,8 +64,6 @@ namespace AutoReservation.Service.Wcf.Testing
         [TestMethod]
         public void Test_InsertAuto()
         {
-            AutoDto auto = new AutoDto();
-            Target.InsertAuto(auto);
             Assert.Inconclusive("Test not implemented.");
         }
 
